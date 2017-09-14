@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A624D2F21F6A6D1C00874262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A624D2F11F6A6D1C00874262 /* main.m */; };
+		A624D2F51F6A6D1C00874262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A624D2F41F6A6D1C00874262 /* AppDelegate.m */; };
+		A624D2F81F6A6D1C00874262 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A624D2F71F6A6D1C00874262 /* ViewController.m */; };
+		A624D2FB1F6A6D1C00874262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A624D2F91F6A6D1C00874262 /* Main.storyboard */; };
+		A624D2FD1F6A6D1C00874262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A624D2FC1F6A6D1C00874262 /* Assets.xcassets */; };
+		A624D3001F6A6D1C00874262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A624D2FE1F6A6D1C00874262 /* LaunchScreen.storyboard */; };
+		A624D30B1F6A6D1C00874262 /* ClickBoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A624D30A1F6A6D1C00874262 /* ClickBoundsTests.m */; };
+		A624D3161F6A6D1C00874262 /* ClickBoundsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A624D3151F6A6D1C00874262 /* ClickBoundsUITests.m */; };
+		A624D3291F6A6D6D00874262 /* UIControl+LeeHitRect.m in Sources */ = {isa = PBXBuildFile; fileRef = A624D3281F6A6D6D00874262 /* UIControl+LeeHitRect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A624D3071F6A6D1C00874262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A624D2E51F6A6D1C00874262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A624D2EC1F6A6D1C00874262;
+			remoteInfo = ClickBounds;
+		};
+		A624D3121F6A6D1C00874262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A624D2E51F6A6D1C00874262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A624D2EC1F6A6D1C00874262;
+			remoteInfo = ClickBounds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A624D2ED1F6A6D1C00874262 /* ClickBounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickBounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A624D2F11F6A6D1C00874262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A624D2F31F6A6D1C00874262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A624D2F41F6A6D1C00874262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A624D2F61F6A6D1C00874262 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A624D2F71F6A6D1C00874262 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A624D2FA1F6A6D1C00874262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A624D2FC1F6A6D1C00874262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A624D2FF1F6A6D1C00874262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A624D3011F6A6D1C00874262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A624D3061F6A6D1C00874262 /* ClickBoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickBoundsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A624D30A1F6A6D1C00874262 /* ClickBoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickBoundsTests.m; sourceTree = "<group>"; };
+		A624D30C1F6A6D1C00874262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A624D3111F6A6D1C00874262 /* ClickBoundsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickBoundsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A624D3151F6A6D1C00874262 /* ClickBoundsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickBoundsUITests.m; sourceTree = "<group>"; };
+		A624D3171F6A6D1C00874262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A624D3271F6A6D6D00874262 /* UIControl+LeeHitRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+LeeHitRect.h"; sourceTree = "<group>"; };
+		A624D3281F6A6D6D00874262 /* UIControl+LeeHitRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+LeeHitRect.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A624D2EA1F6A6D1C00874262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A624D3031F6A6D1C00874262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A624D30E1F6A6D1C00874262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A624D2E41F6A6D1C00874262 = {
+			isa = PBXGroup;
+			children = (
+				A624D3231F6A6D2C00874262 /* Category */,
+				A624D2EF1F6A6D1C00874262 /* ClickBounds */,
+				A624D3091F6A6D1C00874262 /* ClickBoundsTests */,
+				A624D3141F6A6D1C00874262 /* ClickBoundsUITests */,
+				A624D2EE1F6A6D1C00874262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A624D2EE1F6A6D1C00874262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A624D2ED1F6A6D1C00874262 /* ClickBounds.app */,
+				A624D3061F6A6D1C00874262 /* ClickBoundsTests.xctest */,
+				A624D3111F6A6D1C00874262 /* ClickBoundsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A624D2EF1F6A6D1C00874262 /* ClickBounds */ = {
+			isa = PBXGroup;
+			children = (
+				A624D2F31F6A6D1C00874262 /* AppDelegate.h */,
+				A624D2F41F6A6D1C00874262 /* AppDelegate.m */,
+				A624D2F61F6A6D1C00874262 /* ViewController.h */,
+				A624D2F71F6A6D1C00874262 /* ViewController.m */,
+				A624D2F91F6A6D1C00874262 /* Main.storyboard */,
+				A624D2FC1F6A6D1C00874262 /* Assets.xcassets */,
+				A624D2FE1F6A6D1C00874262 /* LaunchScreen.storyboard */,
+				A624D3011F6A6D1C00874262 /* Info.plist */,
+				A624D2F01F6A6D1C00874262 /* Supporting Files */,
+			);
+			path = ClickBounds;
+			sourceTree = "<group>";
+		};
+		A624D2F01F6A6D1C00874262 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A624D2F11F6A6D1C00874262 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A624D3091F6A6D1C00874262 /* ClickBoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A624D30A1F6A6D1C00874262 /* ClickBoundsTests.m */,
+				A624D30C1F6A6D1C00874262 /* Info.plist */,
+			);
+			path = ClickBoundsTests;
+			sourceTree = "<group>";
+		};
+		A624D3141F6A6D1C00874262 /* ClickBoundsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A624D3151F6A6D1C00874262 /* ClickBoundsUITests.m */,
+				A624D3171F6A6D1C00874262 /* Info.plist */,
+			);
+			path = ClickBoundsUITests;
+			sourceTree = "<group>";
+		};
+		A624D3231F6A6D2C00874262 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A624D3271F6A6D6D00874262 /* UIControl+LeeHitRect.h */,
+				A624D3281F6A6D6D00874262 /* UIControl+LeeHitRect.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A624D2EC1F6A6D1C00874262 /* ClickBounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A624D31A1F6A6D1C00874262 /* Build configuration list for PBXNativeTarget "ClickBounds" */;
+			buildPhases = (
+				A624D2E91F6A6D1C00874262 /* Sources */,
+				A624D2EA1F6A6D1C00874262 /* Frameworks */,
+				A624D2EB1F6A6D1C00874262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickBounds;
+			productName = ClickBounds;
+			productReference = A624D2ED1F6A6D1C00874262 /* ClickBounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A624D3051F6A6D1C00874262 /* ClickBoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A624D31D1F6A6D1C00874262 /* Build configuration list for PBXNativeTarget "ClickBoundsTests" */;
+			buildPhases = (
+				A624D3021F6A6D1C00874262 /* Sources */,
+				A624D3031F6A6D1C00874262 /* Frameworks */,
+				A624D3041F6A6D1C00874262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A624D3081F6A6D1C00874262 /* PBXTargetDependency */,
+			);
+			name = ClickBoundsTests;
+			productName = ClickBoundsTests;
+			productReference = A624D3061F6A6D1C00874262 /* ClickBoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A624D3101F6A6D1C00874262 /* ClickBoundsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A624D3201F6A6D1C00874262 /* Build configuration list for PBXNativeTarget "ClickBoundsUITests" */;
+			buildPhases = (
+				A624D30D1F6A6D1C00874262 /* Sources */,
+				A624D30E1F6A6D1C00874262 /* Frameworks */,
+				A624D30F1F6A6D1C00874262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A624D3131F6A6D1C00874262 /* PBXTargetDependency */,
+			);
+			name = ClickBoundsUITests;
+			productName = ClickBoundsUITests;
+			productReference = A624D3111F6A6D1C00874262 /* ClickBoundsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A624D2E51F6A6D1C00874262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.GDBank.Company;
+				TargetAttributes = {
+					A624D2EC1F6A6D1C00874262 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A624D3051F6A6D1C00874262 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A624D2EC1F6A6D1C00874262;
+					};
+					A624D3101F6A6D1C00874262 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A624D2EC1F6A6D1C00874262;
+					};
+				};
+			};
+			buildConfigurationList = A624D2E81F6A6D1C00874262 /* Build configuration list for PBXProject "ClickBounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A624D2E41F6A6D1C00874262;
+			productRefGroup = A624D2EE1F6A6D1C00874262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A624D2EC1F6A6D1C00874262 /* ClickBounds */,
+				A624D3051F6A6D1C00874262 /* ClickBoundsTests */,
+				A624D3101F6A6D1C00874262 /* ClickBoundsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A624D2EB1F6A6D1C00874262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A624D3001F6A6D1C00874262 /* LaunchScreen.storyboard in Resources */,
+				A624D2FD1F6A6D1C00874262 /* Assets.xcassets in Resources */,
+				A624D2FB1F6A6D1C00874262 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A624D3041F6A6D1C00874262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A624D30F1F6A6D1C00874262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A624D2E91F6A6D1C00874262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A624D3291F6A6D6D00874262 /* UIControl+LeeHitRect.m in Sources */,
+				A624D2F81F6A6D1C00874262 /* ViewController.m in Sources */,
+				A624D2F51F6A6D1C00874262 /* AppDelegate.m in Sources */,
+				A624D2F21F6A6D1C00874262 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A624D3021F6A6D1C00874262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A624D30B1F6A6D1C00874262 /* ClickBoundsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A624D30D1F6A6D1C00874262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A624D3161F6A6D1C00874262 /* ClickBoundsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A624D3081F6A6D1C00874262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A624D2EC1F6A6D1C00874262 /* ClickBounds */;
+			targetProxy = A624D3071F6A6D1C00874262 /* PBXContainerItemProxy */;
+		};
+		A624D3131F6A6D1C00874262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A624D2EC1F6A6D1C00874262 /* ClickBounds */;
+			targetProxy = A624D3121F6A6D1C00874262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A624D2F91F6A6D1C00874262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A624D2FA1F6A6D1C00874262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A624D2FE1F6A6D1C00874262 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A624D2FF1F6A6D1C00874262 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A624D3181F6A6D1C00874262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A624D3191F6A6D1C00874262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A624D31B1F6A6D1C00874262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickBounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ClickBounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A624D31C1F6A6D1C00874262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClickBounds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ClickBounds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A624D31E1F6A6D1C00874262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickBoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ClickBoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickBounds.app/ClickBounds";
+			};
+			name = Debug;
+		};
+		A624D31F1F6A6D1C00874262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClickBoundsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ClickBoundsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickBounds.app/ClickBounds";
+			};
+			name = Release;
+		};
+		A624D3211F6A6D1C00874262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickBoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ClickBoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickBounds;
+			};
+			name = Debug;
+		};
+		A624D3221F6A6D1C00874262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClickBoundsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GDBank.Company.ClickBoundsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClickBounds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A624D2E81F6A6D1C00874262 /* Build configuration list for PBXProject "ClickBounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A624D3181F6A6D1C00874262 /* Debug */,
+				A624D3191F6A6D1C00874262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A624D31A1F6A6D1C00874262 /* Build configuration list for PBXNativeTarget "ClickBounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A624D31B1F6A6D1C00874262 /* Debug */,
+				A624D31C1F6A6D1C00874262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A624D31D1F6A6D1C00874262 /* Build configuration list for PBXNativeTarget "ClickBoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A624D31E1F6A6D1C00874262 /* Debug */,
+				A624D31F1F6A6D1C00874262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A624D3201F6A6D1C00874262 /* Build configuration list for PBXNativeTarget "ClickBoundsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A624D3211F6A6D1C00874262 /* Debug */,
+				A624D3221F6A6D1C00874262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A624D2E51F6A6D1C00874262 /* Project object */;
+}
