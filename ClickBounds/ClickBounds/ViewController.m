@@ -26,6 +26,13 @@
     
     [self.view addSubview:contrl];
     
+    
+    
+    
+    
+    
+    
+    
 }
 
 -(void)doything{
